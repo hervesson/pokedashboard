@@ -1,11 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
+
+
+import { StyledParagraph, StyledTitle } from './styles/typography';
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Pokedashboard</h1>
+      <StyledTitle tag='h2' fontWeight={400} fontSize="sm">Pokedashboard</StyledTitle>
+      <StyledParagraph fontSize="md">Esta é uma aplicação para o aprendizado de Styled Components</StyledParagraph>
     </div>
   );
 }
