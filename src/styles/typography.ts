@@ -4,19 +4,22 @@ import BaseTitle from "./components/typography";
 export const StyledTitle = styled(BaseTitle)`
     font-family: 'Poppins', sans-serif;
     font-weight: ${({fontWeight}) => fontWeight};
+
+    color: ${({theme}) => theme.colors.white};
+
     ${({fontSize}) => {
         switch (fontSize) {
             case 'lg': 
                 return css`
-                    font-size: 44px
+                    font-size: 44px;
                 `
             case 'md':
                 return css`
-                    font-size: 20px   
+                    font-size: 20px;  
                 `
             case 'sm':
                 return css`
-                    font-size: 16px   
+                    font-size: 16px;  
                 `
         }
     }}

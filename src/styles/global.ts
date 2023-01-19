@@ -23,3 +23,13 @@ export const GlobalStyle = createGlobalStyle`
         list-style: 0;
     }
 `;
+
+
+export const ColorsTheme = {
+    colors: {
+        white: "white",
+        white20: "rgba(217, 217, 217, 0.15)",
+        red: "#F55859",
+        blue: "#0F81EC"
+    }
+}
