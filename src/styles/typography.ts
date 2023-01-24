@@ -34,8 +34,10 @@ export const StyledParagraph = styled.p<iStyledParagraph>`
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 
+    color: ${({theme}) => theme.colors.white};
+
     strong, b{
-        font-weight: 700
+        font-weight: 700;
     }
 
     opacity: ${({opacity}) => opacity ? opacity : .5};

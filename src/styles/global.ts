@@ -12,7 +12,9 @@ export const GlobalStyle = createGlobalStyle`
         background: transparent;
         border: none;
     }
-
+    body {
+        background-color: #000;
+    }
     ul, ol {
         padding: 0;
         margin: 0;
@@ -29,6 +31,7 @@ export const ColorsTheme = {
     colors: {
         white: "white",
         white20: "rgba(217, 217, 217, 0.15)",
+        white50: "rgba(255, 255, 255, 0.5)",
         red: "#F55859",
         blue: "#0F81EC"
     }
