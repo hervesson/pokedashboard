@@ -2,6 +2,7 @@ import { StyledButton } from './styles/buttons';
 import { StyledParagraph, StyledTitle } from './styles/typography';
 import Header from './components/Header';
 import MainBanner from './components/MainBanner';
+import GameList from './components/GameList';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <MainBanner />
+      <GameList />
     </div>
   );
 }
