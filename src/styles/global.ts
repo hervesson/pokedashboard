@@ -36,6 +36,7 @@ export const ColorsTheme = {
         white: "white",
         white20: "rgba(217, 217, 217, 0.15)",
         white50: "rgba(255, 255, 255, 0.5)",
+        gray15: "rgba(217, 217, 217, 0.15)",
         red: "#F55859",
         blue: "#0F81EC"
     }

@@ -66,7 +66,11 @@ export const StyledBanner = styled.div`
 
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 550px){
+        padding: 1.5rem;
+    }
+
+    @media (max-width: 400px) {
         .priceBox{
             width: 100%;
             flex-direction: column;
